@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuidora de Galletitas</title>
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+              
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="./pages/productos.html">Productos</a></li>
+                <li><a href="#nosotros">Acerca de Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="inicio">
+            <h1>DISTRIBUIDORA BAUTI</h1>
+           
+            <!-- Aquí podrías agregar una imagen representativa -->
+        </section>
+        
+        <section class="grid-conteiner">
+            
+            <div class="grid-item-1"></div>
+            <div class="grid-item-2">
+                <p>Tenemos una gran cantidad de productos los cuales podras ver su precio haciendo click aquí</p>
+                <button><a href="./pages/productos.html">Productos</a></button>
+            </div>
+            
+            <div class="grid-item-3"></div>
+            <div class="grid-item-4"></div>
+            
+            
+            <div id="nosotros">
+                <p>Detrás de cada galletita que amas, hay un equipo comprometido. Nuestros apasionados chefs y amantes de la repostería se unen para crear delicias únicas. La creatividad y la dedicación fluyen en cada lote de galletitas, trayendo sonrisas a tu día. ¡Somos un equipo que comparte la dulzura en cada bocado!</p>
+            </div>
+            <div class="grid-item-6"></div>
+
+            <div class="grid-item-7"></div>
+            <div class="grid-item-8"></div>
+
+            <div class="grid-item-9"></div>
+            <div class="grid-item-10">
+                <p>Tenemos una gran cantidad de productos los cuales podras ver su precio haciendo click aquí</p>
+                <button>Productos</button>
+            </div>
+
+
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            
+            <div class="form-info">
+                
+                <div class="formulario">
+                    <form id="formulario-contacto" action="enviar_correo.php" method="post">
+                        <fieldset>
+                            <label for="nombre">Nombre y Apellido:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Niko Martinez" required>
+                        
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" id="correo" name="correo" placeholder="nikomartinez41@gmail.com" required>
+                        
+                            <label for="asunto">Asunto:</label>
+                            <input type="text" id="asunto" name="asunto" placeholder="Me interesan sus servicios" required>
+                        
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escriba su mensaje aquí"></textarea>
+                        </fieldset>
+                        
+                        <button class="boton" type="submit">Enviar</button>
+                    </form>
+        
+                </div>
+        
+                <div class="info">
+                    <h4>Ubicacion: Avenida San Martin 5600</h4>
+                    <h4>Mail: luciocienfuegos41@gmail.com</h4>
+                    <h4>Telefono: 1133869359</h4>
+                </div>
+            </div>
+    
+           
+        </section>
+
+        
+    </main>
+    
+    
+    <footer>
+        <p>&copy; 2023 Distribuidora de Galletitas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
